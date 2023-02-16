@@ -1,0 +1,82 @@
+
+body{
+    margin:0;
+}
+
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    color:white;
+    font-weight: bold;
+}
+
+
+.container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+    width:100%;
+    margin:0;
+    position:relative;
+}
+
+.box{
+    height:350px;
+    width: 700px;
+    padding:1rem;
+    background-color: grey;
+    display: flex;
+    gap:1rem;
+}
+
+.left, .right{
+    height:100%;
+}
+
+.left{
+    background-color: red;
+    width:40%;
+}
+
+.right{
+    width:60%;
+    display: flex;
+    flex-direction: column;
+    gap:1rem;
+}
+
+
+.right-up, .right-down, .right-down-left, .right-down-right, .right-down-right-up, .right-down-right-down{
+    width:100%;
+    height:100%;
+}
+
+.right-up{
+    background-color: lime;
+}
+
+.right-down{
+    display:flex;
+    gap: 1rem;
+}
+
+
+.right-down-left{
+    background-color: pink;
+}
+.right-down-right{
+    gap:1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.right-down-right-up{
+    background-color: blue;
+}
+
+.right-down-right-down{
+    background-color: blue;
+}
